@@ -375,14 +375,14 @@ const AdminDailyCalls = () => {
                       {!call.isDeleted && (
                         <div className="flex gap-2 mt-2">
                           {/* NEW VIEW BUTTON */}
-                          <Button
+                          {/* <Button
                             variant="secondary"
                             size="sm"
                             className="h-7 text-xs flex-1"
                             onClick={() => navigate(`/daily-calls/${call._id}`)}
                           >
                             <Eye className="h-3 w-3 mr-1" /> View
-                          </Button>
+                          </Button> */}
 
                           <Button
                             variant="outline"
